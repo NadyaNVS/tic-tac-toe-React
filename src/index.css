@@ -14,7 +14,6 @@ body {
   flex-direction: column;
   background-color: #ded4e8;
   height: 100vh;
-  width: 100vh;
   overflow: hidden;
 }
 
@@ -124,10 +123,10 @@ body {
   animation: firework 2s infinite;
 }
 
-.firework::before {
+/* .firework::before {
   transform: translate(-50%, -50%) rotate(25deg) !important;
 }
 
 .firework::after {
   transform: translate(-50%, -50%) rotate(-37deg) !important;
-}
+} */
