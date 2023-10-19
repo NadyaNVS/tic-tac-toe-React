@@ -93,12 +93,11 @@ body {
 .firework,
 .firework::before,
 .firework::after {
-  --top: 60vh;
   content: "";
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateX(-25%);
+  transform: translateX(25%);
   width: 0.5vmin;
   aspect-ratio: 1;
   background:
