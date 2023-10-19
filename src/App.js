@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import Cell from "./components/Cell";
-import Firework from "./components/Firework";
 
 const App = () => {
   const [cells, setCells] = useState(["", "", "", "", "", "", "", "", ""]);
@@ -62,7 +61,6 @@ const App = () => {
         ))}
       </div>
       <p className="message">{winningMessage || message}</p>
-      {winningMessage && <Firework />}
     </div>
   );
 };
